@@ -8,8 +8,12 @@ export function Footer() {
         <p>HydraNet</p>
       </aside>
       <nav className="w-full flex flex-row justify-end gap-4">
-        <img src={Github} alt="GitHub" className="h-6 w-6 invert" />
-        <img src={YouTube} alt="YouTube" className="h-6 w-6 invert" />
+        <a className="cursor-not-allowed">
+          <img src={Github} alt="GitHub" className="h-6 w-6 invert" />
+        </a>
+        <a className="cursor-not-allowed">
+          <img src={YouTube} alt="YouTube" className="h-6 w-6 invert" />
+        </a>
       </nav>
     </footer>
   );
