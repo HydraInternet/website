@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { SquareArrowOutUpRight } from "lucide-react";
 
 // ----------------- //
@@ -17,13 +18,13 @@ function CTA({
     <div className="card basis-0 grow bg-base-100 shadow-sm">
       <div className="card-body">
         <h2 className="card-title">
-          <a
+          <Link
             className="flex flex-row gap-2 items-center justify-between"
-            href={link}
+            to={link}
           >
             {title}
             <SquareArrowOutUpRight height={16} width={16} />
-          </a>
+          </Link>
         </h2>
         <p>{content}</p>
       </div>

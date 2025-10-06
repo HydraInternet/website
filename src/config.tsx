@@ -14,6 +14,13 @@ type ILinkItem = {
 // -- Links -- //
 // ----------- //
 
+const HomePage: ILinkItem = {
+  label: "Home",
+  icon: <span className="sr-only">Home</span>,
+  href: "/",
+  external: false,
+};
+
 const AboutPage: ILinkItem = {
   label: "About",
   icon: <span className="sr-only">About</span>,
@@ -39,5 +46,5 @@ const Github: ILinkItem = {
 // -- Exports -- //
 // ------------- //
 
-export const NavItems: Array<ILinkItem> = [AboutPage, Github];
+export const NavItems: Array<ILinkItem> = [HomePage, AboutPage, Github];
 export const FooterItems: Array<ILinkItem> = [Github, YouTube];

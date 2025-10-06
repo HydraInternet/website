@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { FooterItems } from "@/config";
 
 export function Footer() {
@@ -9,15 +10,15 @@ export function Footer() {
       <nav className="w-full flex flex-row justify-end gap-4">
         {FooterItems.map((item, index) => {
           return (
-            <a
+            <Link
               key={index}
-              href={item.href}
+              to={item.href}
               target={item.external ? "_blank" : "_self"}
               rel={item.external ? "noreferrer noopener" : undefined}
               className="h-6 w-6"
             >
               {item.icon}
-            </a>
+            </Link>
           );
         })}
       </nav>
