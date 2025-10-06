@@ -1,4 +1,5 @@
 import logo from "/logo.svg";
+import { NavItems } from "@/config";
 
 export function NavBar() {
   return (
@@ -11,15 +12,11 @@ export function NavBar() {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Link</a>
-          </li>
-          <li>
-            <a>Link</a>
-          </li>
-          <li>
-            <a>Link</a>
-          </li>
+          {NavItems.map((item) => (
+            <li key={item.href}>
+              <a href={item.href}>{item.title}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
