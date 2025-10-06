@@ -1,13 +1,17 @@
 import { NavBar } from "./_ui/nav";
 import { Hero } from "./_ui/hero";
 import { CallToAction } from "./_ui/cta";
+import { Footer } from "./_ui/footer";
 
 function RootPage() {
   return (
     <>
       <NavBar />
-      <Hero />
-      <CallToAction />
+      <main className="grow">
+        <Hero />
+        <CallToAction />
+      </main>
+      <Footer />
     </>
   );
 }
