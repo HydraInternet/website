@@ -1,2 +1,5 @@
-[ ] Configure CloudFlare to use custom domain
+[X] Configure CloudFlare to use custom domain
+[ ] Configure CloudFlare to (potentially) use the root domain(?)
+[ ] Deploy website onto sovereign server rather than PaaS
+
 [ ] Setup build to happen on repo tag, not push to main
