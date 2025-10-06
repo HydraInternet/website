@@ -1,0 +1,2 @@
+[ ] Configure CloudFlare to use custom domain
+[ ] Setup build to happen on repo tag, not push to main
