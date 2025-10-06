@@ -1,13 +1,12 @@
 export function Hero() {
   return (
-    <div className="hero bg-base-200 py-24">
+    <div className="hero bg-base-200 py-18">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">HydraNet</h1>
           <p className="py-6">
             A permissionless internet for a censored world.
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>

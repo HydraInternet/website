@@ -1,13 +1,15 @@
 import { NavBar } from "./_ui/nav";
 import { Hero } from "./_ui/hero";
+import { CallToAction } from "./_ui/cta";
 
-function App() {
+function RootPage() {
   return (
     <>
       <NavBar />
       <Hero />
+      <CallToAction />
     </>
   );
 }
 
-export default App;
+export default RootPage;
