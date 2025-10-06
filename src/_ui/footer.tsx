@@ -12,8 +12,8 @@ export function Footer() {
             <a
               key={index}
               href={item.href}
-              target="_blank"
-              rel="noreferrer noopener"
+              target={item.external ? "_blank" : "_self"}
+              rel={item.external ? "noreferrer noopener" : undefined}
               className="h-6 w-6"
             >
               {item.icon}

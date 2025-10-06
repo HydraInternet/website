@@ -1,3 +1,5 @@
+import { SquareArrowOutUpRight } from "lucide-react";
+
 import logo from "/logo.svg";
 import { NavItems } from "@/config";
 
@@ -14,7 +16,15 @@ export function NavBar() {
         <ul className="menu menu-horizontal px-1">
           {NavItems.map((item) => (
             <li key={item.href}>
-              <a href={item.href}>{item.title}</a>
+              <a
+                href={item.href}
+                className="gap-0"
+                target={item.external ? "_blank" : "_self"}
+                rel={item.external ? "noopener noreferrer" : undefined}
+              >
+                {item.label}
+                {item.external && <SquareArrowOutUpRight height={16} />}
+              </a>
             </li>
           ))}
         </ul>
