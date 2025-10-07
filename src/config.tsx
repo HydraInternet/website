@@ -47,5 +47,5 @@ const Github: ILinkItem = {
 // -- Exports -- //
 // ------------- //
 
-export const NavItems: Array<ILinkItem> = [AboutPage, Github];
+export const NavItems: Array<ILinkItem> = [AboutPage, Github, YouTube];
 export const FooterItems: Array<ILinkItem> = [Github, YouTube];
