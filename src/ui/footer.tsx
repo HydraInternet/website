@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { FooterItems } from "@/config";
+import { FooterItems } from "@/links";
 
 export function Footer() {
   return (

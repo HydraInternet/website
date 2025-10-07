@@ -1,5 +1,5 @@
-import { Hero } from "@/_ui/hero";
-import { CallToAction } from "@/_ui/cta";
+import { Hero } from "@/ui/hero";
+import { CallToAction } from "@/ui/cta";
 
 export default function RootPage() {
   return (

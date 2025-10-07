@@ -1,7 +1,7 @@
 import { SquareArrowOutUpRight } from "lucide-react";
 
 import logo from "/logo.svg";
-import { NavItems } from "@/config";
+import { NavItems } from "@/links";
 import { Link } from "react-router";
 
 export function NavBar() {

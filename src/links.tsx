@@ -1,7 +1,7 @@
 import type { ReactElement } from "react";
 
-import GithubIcon from "@/_assets/github.svg";
-import YouTubeIcon from "@/_assets/youtube.svg";
+import GithubIcon from "@/assets/github.svg";
+import YouTubeIcon from "@/assets/youtube.svg";
 
 type ILinkItem = {
   label: string;
