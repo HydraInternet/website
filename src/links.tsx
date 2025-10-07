@@ -3,7 +3,7 @@ import type { ReactElement } from "react";
 import GithubIcon from "@/assets/github.svg";
 import YouTubeIcon from "@/assets/youtube.svg";
 
-type ILinkItem = {
+export type ILinkItem = {
   label: string;
   icon: ReactElement;
   href: string;
@@ -29,14 +29,14 @@ const AboutPage: ILinkItem = {
   external: false,
 };
 
-const YouTube: ILinkItem = {
+export const YouTube: ILinkItem = {
   label: "YouTube",
   icon: <img src={YouTubeIcon} alt="YouTube" className="invert" />,
   href: "https://www.youtube.com/@HydraInternet",
   external: true,
 };
 
-const Github: ILinkItem = {
+export const Github: ILinkItem = {
   label: "GitHub",
   icon: <img src={GithubIcon} alt="GitHub" className="invert" />,
   href: "https://github.com/HydraInternet",
