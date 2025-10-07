@@ -7,7 +7,7 @@ export default function PageLayout() {
   return (
     <>
       <NavBar />
-      <main className="grow">
+      <main className="grow flex flex-col">
         <Outlet />
       </main>
       <Footer />
