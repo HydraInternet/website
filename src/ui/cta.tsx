@@ -54,6 +54,7 @@ export function CallToAction() {
         title="Donate"
         content="Support our mission by donating."
         link="#"
+        external
         disabled
       />
       <CTA
