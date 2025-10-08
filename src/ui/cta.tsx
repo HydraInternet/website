@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { SquareArrowOutUpRight } from "lucide-react";
 
-import { Github } from "@/links";
+import { Discord, Github } from "@/links";
 
 // ----------------- //
 // -- Generic CTA -- //
@@ -49,7 +49,7 @@ function CTA({
 
 export function CallToAction() {
   return (
-    <div className="flex flex-col md:flex-row justify-center gap-4 mx-8 my-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-4 mx-8 my-4">
       <CTA
         title="Donate"
         content="Support our mission by donating."
@@ -67,6 +67,12 @@ export function CallToAction() {
         title="Use"
         content="Try out our tools and experience a permissionless internet."
         link={Github.href}
+        external
+      />
+      <CTA
+        title="Join"
+        content="Join our community and help build a better internet."
+        link={Discord.href}
         external
       />
     </div>
