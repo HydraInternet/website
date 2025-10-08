@@ -59,13 +59,13 @@ export function CallToAction() {
       />
       <CTA
         title="Contribute"
-        content="Join our community and contribute."
+        content="Join our community and contribute to a free internet."
         link={Github.href}
         external
       />
       <CTA
         title="Use"
-        content="Utilize our resources and tools."
+        content="Try out our tools and experience a permissionless internet."
         link={Github.href}
         external
       />
