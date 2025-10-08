@@ -3,11 +3,11 @@ import { FooterItems } from "@/links";
 
 export function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 pr-6">
-      <aside className="w-full">
+    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 pr-6 gap-4">
+      <aside className="w-full flex flex-row justify-start">
         <p>HydraNet - A permissionless internet for a censored world.</p>
       </aside>
-      <nav className="w-full flex flex-row justify-end gap-4">
+      <nav className="w-full flex flex-row justify-start sm:justify-end gap-4">
         {FooterItems.map((item, index) => {
           return (
             <Link

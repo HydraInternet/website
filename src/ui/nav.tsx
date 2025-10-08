@@ -6,7 +6,7 @@ import { Link } from "react-router";
 
 export function NavBar() {
   return (
-    <div className="navbar bg-base-100 shadow-sm flex justify-between">
+    <div className="navbar bg-primary text-primary-content flex justify-between">
       <div className="flex items-center">
         <Link to="/" className="flex flex-row text-xl px-2 gap-2">
           <img src={logo} className="h-[32px] w-[32px]" width={32} />
