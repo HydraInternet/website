@@ -15,7 +15,7 @@ export type ILinkItem = {
 // -- Links -- //
 // ----------- //
 
-// @ts-ignore
+// @ts-expect-error TS2322
 const HomePage: ILinkItem = {
   label: "Home",
   icon: <span className="sr-only">Home</span>,
